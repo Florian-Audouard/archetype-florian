@@ -9,7 +9,7 @@
   <version>0.1.0-SNAPSHOT</version>
 
 
-  <name>{project.artifactId}</name>
+  <name>${project.artifactId}</name>
   <url>http://www.example.com</url>
 
   <properties>
@@ -28,7 +28,7 @@
     <logback.version>1.5.8</logback.version>
 
     <!-- Main class -->
-    <mainClass.path>fr.univtln.faudouard.App</mainClass.path>
+    <mainClass.path>${project.groupId}.App</mainClass.path>
   </properties>
 
 
